@@ -1,5 +1,5 @@
-# Application-Server-
-
+# Application-Server-Tomcat
+ 
 If you go and use yum install tomcat it will not work
 
 You must go to this path wget - https://dlcdn.apache.org/tomcat/
@@ -38,6 +38,6 @@ add this below commands
 <user username="deployer" password="deployer" roles="manager-script"/>
 <user username="tomcat" password="s3cret" roles="manager-gui"/>  
 
-done now you can access the application
+done now you can access the application and deploy war file
 
  
